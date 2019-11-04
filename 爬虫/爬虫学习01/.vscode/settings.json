@@ -1,0 +1,5 @@
+{
+    "python.jediEnabled": false,
+    "python.pythonPath": "D:\\python_tools\\Anaconda\\python.exe",
+    "python.linting.pylintEnabled": true
+}

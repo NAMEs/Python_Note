@@ -1,0 +1,26 @@
+*.pyc
+settings.py
+.idea/
+.ipynb_checkpoints/
+
+*/Envs/
+
+*/*.pyc
+
+*/.vscode
+*/.idea
+*/*.mp4
+*/*.png
+*/*.jpg
+*/blogv2/
+*/blog/
+# 爬虫/
+*/.git
+
+# Django/
+Django/projects/
+Django/myproject/
+Django/rest_projects/
+Django/django官方文档
+*/venv/
+

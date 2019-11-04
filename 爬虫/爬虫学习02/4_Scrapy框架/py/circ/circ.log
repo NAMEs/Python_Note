@@ -1,0 +1,600 @@
+2019-04-17 21:58:41 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: circ)
+2019-04-17 21:58:41 [scrapy.utils.log] INFO: Versions: lxml 4.3.2.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.14393-SP0
+2019-04-17 21:58:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'circ', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'circ.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'circ.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['circ.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
+2019-04-17 21:58:41 [scrapy.extensions.telnet] INFO: Telnet Password: 255e397535885f1e
+2019-04-17 21:58:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-17 21:58:42 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-17 21:58:42 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-17 21:58:42 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-17 21:58:42 [scrapy.core.engine] INFO: Spider opened
+2019-04-17 21:58:42 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-17 21:58:42 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-17 21:59:24 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-04-17 21:59:24 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-04-17 21:59:26 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-04-17 22:42:51 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: circ)
+2019-04-17 22:42:51 [scrapy.utils.log] INFO: Versions: lxml 4.3.2.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.14393-SP0
+2019-04-17 22:42:51 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'circ', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'circ.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'circ.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['circ.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
+2019-04-17 22:42:51 [scrapy.extensions.telnet] INFO: Telnet Password: 89ff54ac2a9b5014
+2019-04-17 22:42:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-17 22:42:51 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-17 22:42:51 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-17 22:42:51 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-17 22:42:51 [scrapy.core.engine] INFO: Spider opened
+2019-04-17 22:42:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-17 22:42:51 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-17 22:43:00 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4138826.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:08 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4099733.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:12 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4102976.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:15 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4108700.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:20 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4111606.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:24 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4111608.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:26 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4111613.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:31 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4111614.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:34 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4111615.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:38 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4111616.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4114470.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:46 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4114484.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:48 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4122325.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:51 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4122326.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:43:51 [scrapy.extensions.logstats] INFO: Crawled 17 pages (at 17 pages/min), scraped 0 items (at 0 items/min)
+2019-04-17 22:43:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4122332.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:44:09 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4099415.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/module25157/page2.htm)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:44:13 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4099416.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/module25157/page2.htm)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:44:15 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4099417.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/module25157/page2.htm)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:44:20 [scrapy.core.scraper] ERROR: Spider error processing <GET http://bxjg.circ.gov.cn/web/site0/tab7324/info4099418.htm> (referer: http://bxjg.circ.gov.cn/web/site0/tab7324/module25157/page2.htm)
+Traceback (most recent call last):
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "f:\python\virtualenv\envs\web_spider1\lib\site-packages\scrapy\spiders\crawl.py", line 76, in _parse_response
+    cb_res = callback(response, **cb_kwargs) or ()
+  File "F:\python\爬虫\爬虫学习02\4_Scrapy框架\py\circ\circ\spiders\jianguan.py", line 20, in parse_item
+    item['title'] = re.findall(r"<!--TitleStart-->.*?<!--TitleEnd-->", response.body.decode()).extract_first()
+AttributeError: 'list' object has no attribute 'extract_first'
+2019-04-17 22:44:22 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-04-17 22:44:22 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-04-17 22:44:23 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-04-17 23:02:49 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: circ)
+2019-04-17 23:02:49 [scrapy.utils.log] INFO: Versions: lxml 4.3.2.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.14393-SP0
+2019-04-17 23:02:49 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'circ', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'circ.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'circ.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['circ.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
+2019-04-17 23:02:49 [scrapy.extensions.telnet] INFO: Telnet Password: 4772444277cc9551
+2019-04-17 23:02:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-17 23:02:49 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-17 23:02:49 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-17 23:02:49 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-17 23:02:49 [scrapy.core.engine] INFO: Spider opened
+2019-04-17 23:02:49 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-17 23:02:49 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-17 23:03:04 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-04-17 23:03:04 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-04-17 23:03:07 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-04-17 23:03:18 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: circ)
+2019-04-17 23:03:18 [scrapy.utils.log] INFO: Versions: lxml 4.3.2.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.14393-SP0
+2019-04-17 23:03:18 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'circ', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'circ.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'circ.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['circ.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
+2019-04-17 23:03:18 [scrapy.extensions.telnet] INFO: Telnet Password: a72068e2ee23212c
+2019-04-17 23:03:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-17 23:03:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-17 23:03:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-17 23:03:18 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-17 23:03:18 [scrapy.core.engine] INFO: Spider opened
+2019-04-17 23:03:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-17 23:03:18 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-17 23:03:30 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-04-17 23:03:30 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-04-17 23:03:31 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-04-17 23:20:56 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: circ)
+2019-04-17 23:20:56 [scrapy.utils.log] INFO: Versions: lxml 4.3.2.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.14393-SP0
+2019-04-17 23:20:56 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'circ', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'circ.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'circ.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['circ.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
+2019-04-17 23:20:56 [scrapy.extensions.telnet] INFO: Telnet Password: f77545958e9ed248
+2019-04-17 23:20:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-17 23:20:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-17 23:20:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-17 23:20:56 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-17 23:20:56 [scrapy.core.engine] INFO: Spider opened
+2019-04-17 23:20:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-17 23:20:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-17 23:21:13 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-04-17 23:21:13 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-04-17 23:21:14 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-04-17 23:22:04 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: circ)
+2019-04-17 23:22:04 [scrapy.utils.log] INFO: Versions: lxml 4.3.2.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.14393-SP0
+2019-04-17 23:22:04 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'circ', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'circ.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'circ.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['circ.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
+2019-04-17 23:22:04 [scrapy.extensions.telnet] INFO: Telnet Password: 50463659ca818c2e
+2019-04-17 23:22:04 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-17 23:22:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-17 23:22:04 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-17 23:22:04 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-17 23:22:04 [scrapy.core.engine] INFO: Spider opened
+2019-04-17 23:22:04 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-17 23:22:04 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-17 23:22:27 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-04-17 23:22:27 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-04-17 23:22:28 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-04-17 23:28:09 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: circ)
+2019-04-17 23:28:09 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.14393-SP0
+2019-04-17 23:28:09 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'circ', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'circ.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'circ.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['circ.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
+2019-04-17 23:28:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-17 23:28:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-17 23:28:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-17 23:28:10 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-17 23:28:10 [scrapy.core.engine] INFO: Spider opened
+2019-04-17 23:28:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-17 23:28:23 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-04-17 23:28:23 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-04-17 23:28:24 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2019-04-18 09:28:37 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: circ)
+2019-04-18 09:28:37 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.14393-SP0
+2019-04-18 09:28:37 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'circ', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'circ.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'circ.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['circ.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'}
+2019-04-18 09:28:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-18 09:28:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-18 09:28:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-18 09:28:38 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-04-18 09:28:38 [scrapy.core.engine] INFO: Spider opened
+2019-04-18 09:28:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-18 09:29:08 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2019-04-18 09:29:08 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2019-04-18 09:29:09 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
