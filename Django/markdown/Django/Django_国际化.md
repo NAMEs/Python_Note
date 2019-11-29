@@ -58,7 +58,7 @@
     - 本地化
 
         - 一旦标记好需要翻译的文本（也就是国际化）后，就需要进行本地化，也就是创建翻译用的语言文件。
-        - 运行`python manage.py makemessages -l zh-hans`(或者`django-admin makemessages -l zh-hans`)
+        - 运行`python manage.py makemessages -l zh-hans`(或者`django-admin makemessages -l zh-hans`,该命令需要到指定模块下执行)
 
         ```shell
         python manage.py makemessages -l zh-cn 	// 中文简体

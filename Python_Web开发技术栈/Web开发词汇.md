@@ -36,7 +36,7 @@
 - MTA：Mail Transfer Agent——邮件传输代理
 - MDA：Mail Delivery Agent——邮件投递代理。
 - MIME: Multipurpose Internet Mail Extensions——多用途互联网邮件扩展类型
-
+- MAC地址: 直译为媒体存取控制位址，也称为局域网地址（LAN Address），MAC位址，以太网地址（Ethernet Address）或物理地址（Physical Address），它是一个用来确认网络设备位置的位址。
 
 ## N
 

@@ -52,9 +52,9 @@ def open_camera():
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    videoname = r'F:\python\爬虫\视频爬取\hshy\3b1094864ca93404c93517d6eca8de27.mp4'
+    # videoname = r'F:\python\爬虫\视频爬取\hshy\3b1094864ca93404c93517d6eca8de27.mp4'
 
-    open_video(videoname)
+    # open_video(videoname)
 
     open_camera()
     # cv2.waitKey(0)
