@@ -12,6 +12,8 @@
 - 进程管理工具
 - 安装：`pip install supervisor`
 - start: `supervisord -c /etc/supervisord.conf`
+- reload: `supervisorctl -c supervisord.conf reload`
+- stop: `supervisorctl -c supervisord.conf shutdown`
 - Tool：supervisorctl
 
 - 配置文件重定向：`echo_supervisord_conf > conf/supervisord.conf`
