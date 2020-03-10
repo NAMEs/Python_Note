@@ -8,7 +8,7 @@
 ## class UploadedFIle
 	- 常用方法：
 		- UploadedFile.read()	读取上传文件的所有数据（到内存），小心使用如果文件过大，会导致内存出现问题
-		- UploadedFile.chunks 	生成器返回文件块，通常配合for循环使用
+		- UploadedFile.chunks() 	生成器返回文件块，通常配合for循环使用
 	
 	- 常用属性：
 		- UploadedFile.name 	文件名
@@ -72,3 +72,22 @@
 		image = models.ImageField(upload_to = upload_to)
 		other_filed = models.CharField(max_length=100)
   ```
+
+### 上传文件函数
+
+```python
+    def save_file(self, file):
+        if not file:
+            return {'msg': "未传入文件"}
+
+        try:
+            local_file = open('media/design/{}'.format(file.name), 'wb')
+            for chunk in file.chunks():
+                local_file.write(chunk)
+        except Exception as e:
+            return {'msg': "保存文件失败", 'error': e}
+        finally:
+            local_file.close()
+
+        return True
+```
